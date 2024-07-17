@@ -126,11 +126,17 @@ u:hover{
 
 .toggle-password {
     position: absolute;
-    top: 38%;
+    padding-bottom: 12px;
     right: 16px;
     transform: translateY(-50%);
     cursor: pointer;
     font-size: 16px;
+}
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .form-content {
