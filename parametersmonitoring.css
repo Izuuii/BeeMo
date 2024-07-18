@@ -265,7 +265,7 @@ main {
   border: 1.8px solid #2b2b2b;
   margin-right: 70px;
   box-shadow: 0 5px #2B2B2B;
-  background-image: linear-gradient(#f8f9fa 70%, #fcf4b9 40%);
+  background-image: linear-gradient(#f8f9fa 75%, #fcf4b9 25%);
 }
 .container3{
   border-radius: 10px;
@@ -286,26 +286,34 @@ main {
   font-size: 13px;
 }
 .humid{
-  padding-right: 15px;
+  padding-right: 10px;
   font-weight: 700;
 }
 .humid-percent{
-  padding-right: 37px; 
+  padding-right: 35px; 
   font-size: 17px;
   font-weight: 700;
   color: green;
 }
 .weight{
-  padding-right: 80px;
+  padding-right: 37px;
   font-weight: 700;
   font-size: 13px;
+}
+.initial{
+  padding-right: 10px;
+}
+.current{
+  padding-right: 50px; 
+  font-size: 17px;
+  font-weight: 700;
+  color: green;
 }
 .weight-block p{
   font-size: 13px;
 }
-
-
 .auto-manual {
+  padding-right: 63px;
   font-size: 15px;
 }
 .toggle-button {
@@ -358,10 +366,22 @@ main {
     margin: 0;
   }
 
+  .auto-manual{
+    padding: 0%;
+  }
+
   .yellow {
     min-height: 5vh;
     background-color: #faef9b;
     overflow-y: auto;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .container1, .container2, .container3 {
+      padding: 5px;
+      margin: 5px;
   }
 }
 
