@@ -243,7 +243,6 @@ nav {
 main {
   min-height: 100vh;
 }
-
 .img-responsive {
   max-width: 100%;
   height: auto;
@@ -253,6 +252,22 @@ main {
 .Beemo-text {
   font-size: 1.4rem;
   font-weight: 400;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
+
+.content-wrapper {
+  flex-grow: .5;
+}
+
+.home-page img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* --------------------------------------------End: Main Desktop View---------------------------------------------*/

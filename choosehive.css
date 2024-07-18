@@ -253,7 +253,16 @@ nav {
 main {
   min-height: 100vh;
 }
+.choosehive-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+}
 
+.content-wrapper {
+  flex-grow: .5;
+}
 .choosehive-highlight{
     display: inline;
     background-color: #FEF9D9;
