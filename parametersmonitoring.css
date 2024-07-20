@@ -357,18 +357,17 @@ main {
     box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
   }
 
-  nav {
+  nav{
     padding: 10px;
     margin: 10px;
     box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
-    background-color: #ffffff;
+    
   }
   .navbar-link {
-    background-color: #ffffff;
+    
     box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   }
   .navbar-link:hover {
-    background-color: #ffffff;
     border-radius: 50%;
   }
   .container1, .container2, .container3{

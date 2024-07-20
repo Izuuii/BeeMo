@@ -253,6 +253,10 @@ nav {
 main {
   min-height: 100vh;
 }
+.container-cycle{
+  margin-left: 60px;
+  margin-right: 60px;
+}
 .cycle-page {
   display: flex;
   flex-direction: column;
@@ -334,6 +338,10 @@ td, th{
       margin: 10px; 
       box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
   }
+  .container-cycle{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
   .scrollable-table {
     max-width: 100%;
@@ -346,14 +354,13 @@ td, th{
     padding: 10px;
     margin: 10px;
     box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
-    background-color: #FFFFFF;
+    
   }
   .navbar-link {
-    background-color: #ffffff;
+    
     box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   }
   .navbar-link:hover {
-    background-color: #ffffff;
     border-radius: 50%;
   }
   

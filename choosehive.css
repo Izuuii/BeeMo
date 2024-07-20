@@ -337,17 +337,16 @@ main {
     }
 
     nav{
-        padding: 10px;
-        margin: 10px;
-        box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
-        background-color: #FFFFFF;
+      padding: 10px;
+      margin: 10px;
+      box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
+      
     }
     .navbar-link {
-      background-color: #ffffff;
+      
       box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
     }
     .navbar-link:hover {
-      background-color: #ffffff;
       border-radius: 50%;
     }
     
