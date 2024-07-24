@@ -302,14 +302,13 @@ main {
   .Beemo-text {
     font-size: 1.2rem !important;
   }
-  nav{
+   nav{
     padding: 10px;
     margin: 10px;
     box-shadow: 7px 7px rgba(0, 0, 0, 0.25);
     
   }
   .navbar-link {
-    
     box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   }
   .navbar-link:hover {
