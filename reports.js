@@ -38,13 +38,6 @@ const options = {
                     size: 12
                 }
             },
-            title: {
-                display: true,
-                text: 'Temperature (°C)',
-                font: {
-                    size: 16
-                }
-            }
         },
         x: {
             ticks: {
@@ -53,13 +46,6 @@ const options = {
                     size: 12
                 }
             },
-            title: {
-                display: true,
-                text: 'Hour of the Day',
-                font: {
-                    size: 16
-                }
-            }
         }
     },
     plugins: {
